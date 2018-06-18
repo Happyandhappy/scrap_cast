@@ -1,0 +1,593 @@
+html {
+    line-height: 1;
+    height: 100%;
+    font-size: 10px;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Proxima Nova Regular", "Tahoma", sans-serif;
+    line-height: 1.29412em;
+    margin: 0;
+    color: #303030;
+    background: #ccc;
+}
+
+/* @font-face {
+    font-family: 'Proxima Nova Light';
+    src: url("../Fonts/proximanova_light-webfont.eot");
+    src: url("../Fonts/proximanova_light-webfont.eot?#iefix") format("embedded-opentype"), url("../Fonts/proximanova_light-webfont.ttf") format("truetype"), url("../Fonts/proximanova_light-webfont.svg#proxima_novalight") format("svg");
+    font-weight: normal;
+    font-style: normal;
+} */
+/* 
+@font-face {
+    font-family: 'Proxima Nova Bold';
+    src: url("../Fonts/proximanova_bold-webfont.eot");
+    src: url("../Fonts/proximanova_bold-webfont.eot?#iefix") format("embedded-opentype"), url("../Fonts/proximanova_bold-webfont.ttf") format("truetype"), url("../Fonts/proximanova_bold-webfont.svg#proxima_nova_rgbold") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Thin Italic';
+    src: url("../Fonts/proximanova_thinit-webfont.eot");
+    src: url("../Fonts/proximanova_thinit-webfont.eot?#iefix") format("embedded-opentype"), url("../Fonts/proximanova_thinit-webfont.ttf") format("truetype"), url("../Fonts/proximanova_thinit-webfont.svg#proxima_novathin_italic") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Light Italic';
+    src: url("../Fonts/proximanova_lightit_2-webfont.eot");
+    src: url("../Fonts/proximanova_lightit_2-webfont.eot?#iefix") format("embedded-opentype"), url("../Fonts/proximanova_lightit_2-webfont.ttf") format("truetype"), url("../Fonts/proximanova_lightit_2-webfont.svg#proxima_novalight_italic") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Bold Italic';
+    src: url("../Fonts/proximanova_boldit-webfont.eot");
+    src: url("../Fonts/proximanova_boldit-webfont.eot?#iefix") format("embedded-opentype"), url("../Fonts/proximanova_boldit-webfont.ttf") format("truetype"), url("../Fonts/proximanova_boldit-webfont.svg#proxima_nova_rgbold_italic") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Regular Italic';
+    src: url("../Fonts/proximanova_regularit-webfont.eot");
+    src: url("../Fonts/proximanova_regularit-webfont.eot?#iefix") format("embedded-opentype"), url("../Fonts/proximanova_regularit-webfont.ttf") format("truetype"), url("../Fonts/proximanova_regularit-webfont.svg#proxima_novaregular_italic") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Thin';
+    src: url("../Fonts/proximanova_thin-webfont.eot");
+    src: url("../Fonts/proximanova_thin-webfont.eot?#iefix") format("embedded-opentype"), url("../Fonts/proximanova_thin-webfont.ttf") format("truetype"), url("../Fonts/proximanova_thin-webfont.svg#proxima_novathin") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Regular';
+    src: url("../Fonts/proximanova_regular-webfont.eot");
+    src: url("../Fonts/proximanova_regular-webfont.eot?#iefix") format("embedded-opentype"), url("../Fonts/proximanova_regular-webfont.ttf") format("truetype"), url("../Fonts/proximanova_regular-webfont.svg#proxima_nova_rgregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Semibold Italic';
+    src: url("../Fonts/proximanova_semiboldit_2-webfont.eot");
+    src: url("../Fonts/proximanova_semiboldit_2-webfont.eot?#iefix") format("embedded-opentype"), url("../Fonts/proximanova_semiboldit_2-webfont.ttf") format("truetype"), url("../Fonts/proximanova_semiboldit_2-webfont.svg#proxima_novasemibold_italic") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Semibold';
+    src: url("../Fonts/proximanova_semibold-webfont.eot");
+    src: url("../Fonts/proximanova_semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../Fonts/proximanova_semibold-webfont.ttf") format("truetype"), url("../Fonts/proximanova_semibold-webfont.svg#proxima_novasemibold") format("svg");
+    font-weight: normal;
+    font-style: normal;
+} */
+
+form {
+    height: 100%;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+caption, th, td {
+    vertical-align: middle;
+}
+
+caption {
+    display: block;
+}
+
+th {
+    font-weight: bold;
+}
+
+q, blockquote {
+    quotes: none;
+}
+
+    q:before, q:after, blockquote:before, blockquote:after {
+        content: "";
+        content: none;
+    }
+
+a img {
+    border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+
+hr {
+    margin: 2rem 0;
+    border-top: 4px solid #dddddd;
+}
+
+
+p {
+    line-height: 1.4;
+    margin-bottom: 2.8rem;
+    font-size: 1.7rem;
+}
+
+@media (min-width:1600px) {
+    p, ul {
+        font-size: 2rem;
+    }
+}
+
+a {
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    /*-ms-transition: all 200ms ease-in-out;*/
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+
+    a:hover, a:focus {
+        color: #299ab6;
+        text-decoration: underline;
+    }
+
+html > /**/ body ul, ol {
+    margin-bottom: 1.29412em;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 1em;
+    font-size: 1.7rem;
+    line-height: 1.5;
+}
+
+ol {
+    list-style-type: decimal;
+    padding-left: 2em;
+    line-height: 1.5;
+}
+
+img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+
+@media (max-width:900px) {
+    img.logo-image {
+        width: 120px;
+        margin-top: 1rem;
+    }
+}
+
+.img-100 {
+    width: 100%;
+}
+
+
+@media (max-width: 1300px) {
+    #NavWrapper .container {
+        width: 100%;
+    }
+}
+
+.main-content {
+    margin-top: 1em;
+}
+
+
+a#skiptocontent {
+    padding: 6px;
+    position: absolute;
+    top: -100px;
+    left: 0;
+    background: #ffffff;
+    -webkit-transition: top 1s ease-out, background 1s linear;
+    -moz-transition: top 1s ease-out, background 1s linear;
+    -o-transition: top 1s ease-out, background 1s linear;
+    transition: top 1s ease-out, background 1s linear;
+    z-index: 9999999999999;
+}
+
+    a#skiptocontent:focus {
+        position: absolute;
+        left: 0;
+        top: 10px;
+        outline: 0;
+        -webkit-transition: top .1s ease-in, background .5s linear;
+        -moz-transition: top .1s ease-in, background .5s linear;
+        -o-transition: top .1s ease-in, background .5s linear;
+        transition: top .1s ease-in, background .5s linear;
+    }
+
+@media (max-width: 768px) {
+    .main-content {
+        margin-top: 0;
+    }
+
+    .mobile-push-down {
+        margin-top: 5em;
+    }
+}
+
+
+section.main_content {
+    position: static;
+    z-index: 2;
+}
+
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+    font-family: "Proxima Nova Regular", "Tahoma", sans-serif;
+    line-height: 1.29412em;
+    margin-bottom: 0.5em;
+}
+
+
+.bold {
+    font-family: "Proxima Nova Bold", "Tahoma", sans-serif;
+}
+
+.page-title, .section-title {
+    color: #005179;
+    font-size: 5rem;
+    margin: 0;
+    padding-bottom: 2rem;
+}
+
+.sub-title {
+    color: #767676;
+}
+
+.width-auto {
+    width: auto;
+}
+
+
+.no-margin {
+    margin: 0;
+}
+
+.margin-bottom {
+    margin-bottom: 5rem !important;
+}
+
+.margin-top {
+    margin-top: 3rem !important;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.display-none {
+    display: none;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+@media (max-width: 768px) {
+    h1.page-title, h1.section-title {
+        font-size: 3rem;
+    }
+}
+
+blockquote {
+    padding: 12.5px 25px;
+    margin: 1.5rem 0;
+    border-left: 5px solid #ccc;
+}
+
+sup {
+    position: relative;
+    font-size: .7em;
+    top: -1em;
+}
+
+sub {
+    position: relative;
+    font-size: .7em;
+    bottom: -0.25em;
+}
+
+header[role="banner"] {
+    height: auto;
+}
+
+label {
+    display: block;
+    margin: 0;
+    font-weight: 300;
+}
+
+i
+/*Most New Bootstrap changes*/
+.fa, .glyphicon {
+    font-size: 22px;
+    opacity: 0.7;
+}
+
+
+/*Sitewide design stuff*/
+.border-radius {
+    border-radius: 10px;
+}
+
+
+/*Borders & backgrounds */
+.border-bottom-white {
+    border-bottom: 1px solid #fff;
+}
+
+.border-green {
+    border: 5px solid #00cb00;
+}
+
+
+.border-top-green {
+    border-top: 5px solid #00cb00;
+}
+
+.border-yellow-green {
+    border: 5px solid #8ad41e;
+}
+
+.border-mid-blue {
+    border: 5px solid #4285ff;
+}
+
+.border-top-yellow-green {
+    border-top: 10px solid #8ad41e;
+}
+
+.border-top-periwinkle {
+    border-top: 10px solid #8081ff;
+}
+
+.border-top-mid-blue {
+    border-top: 10px solid #4285ff;
+}
+
+.border-top-sky-blue {
+    border-top: 10px solid #49c7ff;
+}
+
+.border-top-teal {
+    border-top: 10px solid #2fd5a6;
+}
+
+.border-top-violet {
+    border-top: 10px solid #ba2fd5;
+}
+
+.border-top-prussian-blue {
+    border-top: 10px solid #005179;
+}
+
+.background-prussian-blue, .sfFormSubmit input[type="submit"] {
+    background-color: #005179;
+    color: #ffffff;
+}
+
+    .background-prussian-blue a {
+        color: #ffffff;
+        border-bottom: 1px dotted #ffffff;
+    }
+
+.background-orange {
+    background-color: #ff5600;
+    color: #ffffff;
+}
+
+.background-red {
+    background-color: #fd7a7a;
+}
+
+.background-light-gray {
+    background-color: #f6f6f6;
+}
+
+.position-relative {
+    position: relative;
+}
+
+
+/*Start new homepage stuff*/
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.small, small {
+    font-size: 90%;
+}
+
+
+@media (min-width:1600px) {
+    #MainWrapper h2 {
+        font-size: 34px;
+    }
+
+    #MainWrapper .nav > li {
+        font-size: 2rem;
+    }
+
+    h4 {
+        font-size: 22px;
+    }
+}
+
+/*End new homepage stuff*/
+
+/*Begin new 2nd level stuff*/
+#MainWrapper.main_content {
+    width: 97%;
+    border-radius: 0;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    display: block;
+    margin: 2rem auto 0;
+    padding: 3rem;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQ4AAAAHBAMAAAC7Ps1oAAAAMFBMVEX/RwB+0yEUpOobTpUtsLtRTXJRTXJRTXItsLstsLsZcbcUpOobTpUZcbd+0yH/RwDc2wgKAAAAC3RSTlP09PT01tbN2M3Y9JXJHoQAAABWSURBVHhe7dcxEcAgFATRbyEWUqWnQwsdNpBFw2AhsYIFoiGTZot9Gra4C76a2PJJdx14sfHazfZMurHwYuMVO/yp2+EHdmiHdmiHdug+dB8C+Jf9yy96xGja/Rnj+wAAAABJRU5ErkJggg==') /*../Images/color-bar-top.png*/;
+    background-repeat: no-repeat;
+    background-position: center top;
+    /*Shannon Change*/
+    background-size: 100% 7px;
+    font-size: 1.7rem;
+    line-height: 1.3;
+    min-height: 600px;
+}
+
+.no-heading table {
+    margin-top: -6rem;
+}
+
+.no-heading thead {
+    visibility: hidden;
+}
+
+.table-display {
+    display: table;
+    width: 100%;
+}
+
+.table-cell {
+    display: table-cell;
+    float: none;
+    vertical-align: middle;
+}
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    vertical-align: middle;
+}
+
+/* Announcement alert styling*/
+.site-banner {
+    margin-top: 100px;
+    height: auto;
+    z-index: 2;
+    min-height: 1px;
+}
+
+    .site-banner .alert-info {
+        width: 97%;
+        margin: 0 auto;
+        background-color: #fdf7da;
+        color: #005179 !important;
+        font-size: 1.6rem;
+        border-color: #D9CEBA;
+    }
+
+        .site-banner .alert-info img {
+            max-height: 30px;
+            margin-top: -5px;
+        }
+
+.alert-dismissable .close, .alert-dismissible .close {
+    color: #665838;
+    opacity: 0.8;
+}
+
+.background-prussian-blue a.btn {
+    border: none;
+}
+
+#FooterWrapper {
+    background: #ffffff;
+    font-size: 0.9em;
+    position: relative;
+    height: auto;
+    padding-bottom: 80px;
+    background-image: url('data:image/png;base64,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') /*../Images/endpage-bottom-mountains.png*/;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 95%;
+}
+
+
+    #FooterWrapper .NavHorizontal li {
+        display: inline-block;
+        font-size: 1.5rem;
+    }
+
+        #FooterWrapper .NavHorizontal li:after {
+            content: "|";
+            color: #337ab7;
+        }
+
+        #FooterWrapper .NavHorizontal li:last-child:after {
+            content: "";
+        }
+
+    #FooterWrapper .NavHorizontal > li {
+        display: inline-block;
+    }
+
+        #FooterWrapper .NavHorizontal > li > a {
+            padding: 0 15px;
+        }
+
+
+@media (max-width:1200px) {
+    #FooterWrapper p {
+        text-align: center !important;
+    }
+
+    #FooterWrapper .pull-right {
+        float: none !important;
+        display: block;
+        margin: 1rem auto;
+        text-align: center;
+    }
+
+    #FooterWrapper .NavHorizontal > li > a {
+        padding: 10px;
+    }
+}
+
+
+#FooterWrapper ol, #FooterWrapper, li ol, li ul {
+    margin-top: 0;
+}

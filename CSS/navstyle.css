@@ -1,0 +1,184 @@
+nav[role="navigation"] {
+    position: relative;
+    z-index: 10;
+}
+
+    nav[role="navigation"] a {
+        text-decoration: none;
+    }
+
+        nav[role="navigation"] a:hover,
+        nav[role="navigation"] a:focus {
+            color: #7bcde1;
+        }
+
+.navbar-inverse {
+    background-color: #22415C;
+    border-color: #22415C;
+}
+
+/*Shannon changed*/
+.navbar {
+    min-height: 107px;
+    margin-bottom: 0;
+    /*margin-top:47px;*/
+    padding-top: 47px;
+}
+/*@media (max-width: 316px) {
+    .navbar {
+        min-height:143px;
+        margin-bottom:0;
+        padding-top:83px;
+    }
+
+}*/
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+    background-color: #0f2940;
+}
+
+.navbar-nav > li > a {
+    margin-top: 5px;
+}
+
+.navbar-right > li > a {
+    margin-top: 0;
+}
+
+.navbar-right img {
+    height: 22px;
+}
+
+.menu-icon {
+    color: #7ED321;
+    margin-right: 10px;
+}
+/*#endregion*/
+
+.navbar-inverse a, .navbar-inverse .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+    .navbar-inverse a:hover, .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse a, .navbar-inverse .navbar-nav > li > a {
+        text-decoration: none;
+    }
+
+#NavWrapper .nav > li > a:focus {
+    outline: dotted 1px #ffffff;
+}
+
+@media (max-width:1250px) {
+    .navbar ul {
+        font-size: 1.4rem;
+        padding: 0;
+    }
+}
+
+@media (max-width:870px) {
+    .navbar ul {
+        font-size: 1.2rem;
+    }
+}
+
+
+/* Yamm menu*/
+.yamm {
+    padding-top: 5px;
+}
+
+    .yamm .nav,
+    .yamm .collapse,
+    .yamm .dropup,
+    .yamm .dropdown {
+        position: static;
+    }
+
+    .yamm .container {
+        position: relative;
+    }
+
+    .yamm .dropdown-menu {
+        left: auto;
+    }
+
+    .yamm .yamm-content {
+        padding: 20px;
+    }
+
+        .yamm .yamm-content li {
+            font-size: 1.6rem;
+        }
+
+            .yamm .yamm-content li.header .btn {
+                font-size: 1.9rem;
+                font-weight: 700;
+            }
+
+    .yamm .dropdown.yamm-fw .dropdown-menu {
+        right: 3rem;
+        margin-top: 1rem;
+        background-color: #ffffff;
+        width: 80%;
+    }
+
+.dropdown-menu {
+    box-shadow: 0 6px 12px rgba(0,0,0,.3);
+}
+
+.services-menu img {
+    height: auto;
+    position: relative;
+    top: 10px;
+}
+
+.services-menu .thumbnail {
+    height: 14rem;
+    padding: 10px 5px;
+    border: 1px solid #EBEBEB;
+}
+
+    .services-menu .thumbnail .caption {
+        text-align: center;
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+    }
+
+.services-menu a .thumbnail:hover {
+    background-color: #EBEBEB;
+}
+
+.services-menu .pay-icon img {
+    left: 17px;
+    top: -2px !important;
+}
+
+.services-menu .pay-icon .caption {
+    margin-top: 0 !important;
+}
+
+.services-menu > .arrow, .services-menu > .arrow:after {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.services-menu > .arrow {
+    top: -11px;
+    right: 120px;
+    margin-left: -11px;
+    border-width: 11px;
+    border-top-width: 0;
+    border-bottom-color: rgba(0,0,0,0.25);
+}
+
+    .services-menu > .arrow:after {
+        content: "";
+        border-width: 10px;
+        top: 1px;
+        margin-left: -10px;
+        border-top-width: 0;
+        border-bottom-color: #ffffff;
+    }
